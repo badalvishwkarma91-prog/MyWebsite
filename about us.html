@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Our Story</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+       
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 80px 10%;
+            min-height: 100vh;
+        }
+        
+        .about-image img{
+           max-width: 100%;
+           border-radius:25px;
+          
+          
+        }
+       
+        .about-image  {
+            max-width:550px;
+            border-radius:20px;
+            
+        }
+
+        /* Text Side */
+        .about-content {
+            flex: 1;
+            min-width: 300px;
+            padding: 40px;
+        }
+
+        .about-content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .about-content h3 {
+            font-size: 1.2rem;
+            color: #3498db;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .about-content p {
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive Fix for Mobile */
+        @media (max-width: 768px) {
+            .about-section {
+                padding: 40px 5%;
+                text-align: center;
+            }
+            .about-content {
+                padding: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about-section">
+        
+        <div class="about-image">
+            <img src="C:\Users\SKC\Desktop\Project\p images\bg.jpg" alt="Our Team">
+        </div>
+
+        <div class="about-content">
+            <h3>Our Story</h3>
+            <h1>Our Passion, Your Pleasure</h1>
+            <p>
+                We believe ice cream should be an experience. Our journey began with a passion for local ingredients—fresh cream from [Local Farm] and berries from [Area Market].We opened our doors to turn these simple, local treasures into delightful frozen treats.we’re not just serving dessert; we’re serving joy. Whether it's a first date, a celebration, or a comforting treat after a long day, our goal is to make every visit a sweet, 
+                memorable escape.
+            </p>
+            <p>
+                Our mission is to bring out the best of the organic food movement by creating a range of ice creams using only wholesome ingredients sourced from small-scale family farms
+                
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+</body>
+</html>

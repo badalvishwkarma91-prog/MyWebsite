@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+   
+body {
+    font-family: Arial, sans-serif;
+     background:linear-gradient(#ffdad5,#fff7f9); /* here we use mixture of two colour*/
+}
+
+.container{
+       height:100vh;
+       display:flex;
+        justify-content:space-evenly;        
+}
+
+.contact-left{
+        display:flex;
+        flex-direction: column;
+        align-items: start; /*submit button change its shape*/
+        gap:20px;
+
+}
+.contact-left-title h2{
+         font-weight:600;
+         color:#a363aa;
+         font-size: 40px;
+         margin-bottom: 5px;
+
+}
+
+.contact-left-title hr{
+   border:none;
+   width: 120px;
+   height: 5px;
+   background-color: #a363aa;
+   border-radius: 10px;
+   margin-bottom:20px;
+}
+
+.contact-inputs{
+   width:400px;
+   height:50px;
+   border:none;
+   padding-left:25px;
+   font-weight:50px;
+   color:#666;
+   border-radius:50px;
+
+}
+.contact-left textarea{
+   height:140px;
+   padding-top:15px;
+   boder-radius:20px;
+}
+
+.contact-left button{
+display:flex;
+align-items:center;
+padding:15px 30px;
+font-size:16px;
+color:afff;
+gap: 10px;
+border:none;
+border-radius:50px;
+background: linear-gradient(270deg,#ff994f,#fa6d86);
+cursor: pointer;
+}
+
+.contact-right{
+   border-radius:40px;
+}
+
+   </style>
+</head>
+<body>
+<div class="container">
+   <form class="contact-left">
+        <div class="contact-left-title">
+            <h2>Get in touch</h2>
+            <hr>
+         </div>
+              
+        <input type="text"  name="name"  placeholder="Your Name"  class="contact-inputs" required>
+        <input type="Email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+      <div class="contact-right">
+      <img src="C:\Users\SKC\Desktop\Project\p images\myb.jpg" alt="icecream bg">
+      </div>
+</div>
+    
+</body>
+</html>
