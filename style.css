@@ -308,7 +308,7 @@ span{
 }
 
 .commitment .container p{
-      max width:650px;
+      max width: 650px;
       margin: auto;
 }
 
@@ -368,3 +368,65 @@ span{
         width: 12rem;
     }
 }
+    .production {
+        padding: 4rem 1rem;
+        width: 100%;
+    }
+
+    .production-right-image,
+    .production-left-image {
+        width: 10rem;
+        position: absolute;
+    }
+
+    .production-right-image {
+        right: -2rem;
+        bottom: 0;
+    }
+
+    .production-left-image {
+        left: -2rem;
+        bottom: 0;
+    }
+
+    .healthy-section {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .healthy-section .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .healthy-section .content img {
+        width: 12rem;
+        float: none;
+        margin: auto;
+    }
+
+    .commitment {
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .commitment .container {
+        width: 100%;
+    }
+
+    .commitment .container img {
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .commitment .container p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+        padding: 2rem 1rem;
+    }
