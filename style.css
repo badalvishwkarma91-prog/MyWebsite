@@ -318,3 +318,53 @@ span{
    padding-block:3rem;
    margin-top:3rem;
 }
+@media (max-width: 600px) {
+
+    .container {
+        max-width: 95%;
+    }
+
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .navlist {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
+        background-size: 100%;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    .card-container {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+        padding: 8rem 1.5rem 2rem;
+    }
+
+    .card-image {
+        width: 12rem;
+    }
+}
